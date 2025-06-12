@@ -5,7 +5,7 @@ import numpy as np
 import argparse
 
 def generar_matriz(semilla=None):
-    """Genera una matriz 8x8 con valores aleatorios"""
+    """Genera una matriz 8x8 con valores aleatorios para pruebas"""
     if semilla is not None:
         np.random.seed(semilla)
     
